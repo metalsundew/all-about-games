@@ -1,0 +1,72 @@
+body{
+	background:url(https://i1.wallbox.ru/wallpapers/main/201447/2b1853d14494a53.jpg);
+}
+td{border-width: 1px;
+border-style: solid;
+border-color: black;
+}
+img{
+width: 100px;
+}
+.котик{
+	width: 400px;
+}
+table{
+	border-collapse: collapse;
+}
+.many{
+	width: 100%;/*ширина*/
+	height: 60px;/*высота*/
+	background: black;/*цвет фона*/
+	border-radius: 10px;
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+}
+.many a{
+	color: white;/*цвет текста*/
+	font-weight: 700;/*толщина текста*/
+	text-decoration: none;/*удаление почеркивания текста*/
+	font-size: 24px;/*размер текста*/
+    margin: 0 10px;/*отступ снаружи*/
+}
+.news-img{
+	width: 500px;
+}
+input{
+	width: 300px;
+	padding: 5px;
+	margin-top: 10px; /* поля ввода друг от друга*/
+
+border: 2px solid #1abc9c; /*даем всем полям ввода рамку для красоты*/ 
+
+background-color: #fff; /*задаем им цвет фона*/ 
+
+color: #000; /* задаем цвет букв*/
+
+outline: none; /*убрали синюю рамку при клике на поле*/
+
+border-radius: 8px; /*добавили закругление углов*/ 
+}
+input::placeholder{
+	color: purple;
+}
+form{
+
+width: 500px; /*задали общую ширину всей формы*/ 
+
+margin: 50px auto; /*выставили по центру*/
+
+padding: 30px; /*со всех сторон добавили «воздух» формы, чтобы в ней не было тесно*/ 
+
+background-color: #fff; /*задали задний цвет*/
+
+text-align: center; /*поставили все элементы внутри по центру*/
+
+border-radius: 8px; /*закруглили углы*/
+}
+legend {
+	color: black;
+	font-size: 30px;
+	text-align: left;
+}
