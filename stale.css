@@ -70,3 +70,22 @@ legend {
 	font-size: 30px;
 	text-align: left;
 }
+.banner{
+	background-image: url(https://games.mail.ru/hotbox/content_files/news/2020/07/02/d4f3dcc60cff4e92a3ed7b181f5c07ee.jpg);
+	height: 400px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.gta-5{
+	width: 200px;
+}
+.tetris{
+	width: 200px;
+}
+.wii-Sports{
+	width: 200px;
+}
+.gg{
+  font-size: 80px;
+  color: white;
+}
