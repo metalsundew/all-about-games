@@ -89,3 +89,26 @@ legend {
   font-size: 80px;
   color: white;
 }
+.ff{
+	background-color: black;
+	color: white;
+	height: 200px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.top{
+height: 50px;
+width: 50px;
+background-color: silver;
+border-radius: 50px;
+display: flex;
+align-items: center; 
+justify-content: center;
+position: fixed;
+left: 40px;
+bottom: 40px;
+z-index: 1;
+}
